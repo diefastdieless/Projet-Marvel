@@ -1,6 +1,7 @@
 <?php
+require_once "controlleur.php";
 
-	class LoginControlleur{
+	class LoginControlleur extends Controlleur{
 		
 		public function login(array $user): ?string{ // Typage donnee en sortie (null ou string);
 			
